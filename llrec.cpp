@@ -6,7 +6,7 @@
 
 
 
-void llpivot (Node*& head, Node*& smaller, Node*& larger, int pivot){
+void llpivot(Node*& head, Node*& smaller, Node*& larger, int pivot){
   if(!head) {
     smaller = nullptr;
     larger = nullptr;
